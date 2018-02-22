@@ -5,8 +5,6 @@
   "scripts": {
     "start": "node app.js",
     "test": "mocha --exit || true",
-    "lint": "standard --fix",
-    "posttest": "npm run lint",
     "coverage": "babel-node node_modules/.bin/babel-istanbul cover _mocha",
     "showcoverage": "open coverage/lcov-report/index.html"
   },
