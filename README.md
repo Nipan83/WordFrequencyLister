@@ -47,16 +47,17 @@ It is an application that accepts a number input N with a Submit button and on e
 
 ### Routes 
 
-##### /
+##### GET
 
- `http://localhost:3000/ 
+
+ `http://localhost:3000/`
  
  This route displays the home page that accepts a number input N with a Submit button.
  
  
- ##### /send
+ ##### POST
  
- `http://localhost:3000/send
+ `http://localhost:3000/send`
  
   This route displays the top N words and their frequency of occurrence in the frontend, in a tabular format
  
