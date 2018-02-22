@@ -39,7 +39,7 @@ It is an application that accepts a number input N with a Submit button and on e
 
 ## INSTALLATION 
 
-- Clone the repository `git clone https://github.com/Nipan83/wordFrequencyLister.git
+- Clone the repository `git clone https://github.com/Nipan83/wordFrequencyLister.git`
 - Install all dependecies `npm install`
 - Start the server `npm start`
 
