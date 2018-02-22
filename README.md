@@ -48,6 +48,7 @@ Its an application that accepts a number input N with a Submit button and on ent
 ```sh
 # To run the mocha test
 npm test
+```
 
 ## AUTHOR 
 
