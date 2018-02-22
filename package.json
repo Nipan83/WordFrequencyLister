@@ -1,0 +1,32 @@
+{
+  "name": "ttt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha || true",
+    "lint": "standard --fix",
+    "posttest": "npm run lint",
+    "coverage": "babel-node node_modules/.bin/babel-istanbul cover _mocha",
+    "showcoverage": "open coverage/lcov-report/index.html"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-istanbul": "^0.12.2",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "standard": "^11.0.0",
+    "supertest": "^3.0.0"
+  }
+}
