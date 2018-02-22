@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')))
-const port = process.env.PORT || 3005
+const port = process.env.PORT || 3000
 
 app.post('/send', function (req, res) {
   var response = res
