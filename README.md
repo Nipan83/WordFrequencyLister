@@ -53,7 +53,7 @@ Its an application that accepts a number input N with a Submit button and on ent
  This routes sisplays the home page that accepts a number input N with a Submit button.
  
  
- ##### POST JSON patch
+ ##### /send
  
  `http://localhost:3005/send
  
